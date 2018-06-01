@@ -15,7 +15,7 @@ public class DefaultPredictor implements Predictor {
      * Constructor
      */
     public DefaultPredictor() {
-        innerPredictor = new OneZeroPredictor();
+        innerPredictor = new Russia2018WorldCupPredictor();
     }
 
     @Override
